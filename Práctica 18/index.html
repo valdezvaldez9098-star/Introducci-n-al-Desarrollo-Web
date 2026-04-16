@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIM - Facultad de Ingeniería Mochis</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="logo-titulo">
+            <!-- Posible error: la ruta de la imagen puede no existir -->
+            <img src="logo-fim.png" alt="Logo FIM" class="logo">
+            <h1>Facultad de Ingeniería Mochis</h1>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#oferta">Oferta Educativa</a></li>
+                <li><a href="#alumnos">Alumnos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <!-- Error leve: enlace vacío -->
+                <li><a href="">Transparencia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="bienvenida">
+            <h2>Bienvenidos a la FIM</h2>
+            <p>Formando ingenieros con excelencia académica y compromiso social. Aquí encontrarás información sobre nuestras carreras, eventos y servicios.</p>
+            <!-- Error leve: botón con enlace incorrecto (solo "#") -->
+            <a href="#" class="boton">Conoce más</a>
+        </section>
+
+        <section id="oferta" class="carreras">
+            <h2>Nuestras carreras</h2>
+            <div class="lista-carreras">
+                <div class="carrera">
+                    <h3>Ingeniería en Software</h3>
+                    <p>Forma parte de la nueva generación de desarrolladores.</p>
+                </div>
+                <div class="carrera">
+                    <h3>Ingeniería Civil</h3>
+                    <p>Construye el futuro con bases sólidas.</p>
+                </div>
+                <div class="carrera">
+                    <h3>Ingeniería Industrial</h3>
+                    <p>Optimiza procesos y mejora la productividad.</p>
+                </div>
+                <!-- Error leve: la tercera carrera repite información -->
+                <div class="carrera">
+                    <h3>Ingeniería Industrial</h3>
+                    <p>Optimiza procesos y mejora la productividad.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="alumnos" class="avisos">
+            <h2>Avisos importantes</h2>
+            <article class="aviso">
+                <h3>Inscripciones abiertas</h3>
+                <p>Periodo de inscripciones para nuevo ingreso: del 1 al 30 de junio.</p>
+            </article>
+            <article class="aviso">
+                <h3>Calendario de exámenes</h3>
+                <p>Consulta las fechas de exámenes finales en el portal de alumnos.</p>
+            </article>
+            <!-- Error leve: artículo con etiqueta h4 suelta (salta nivel de jerarquía) -->
+            <h4>Más información próximamente</h4>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <div class="contacto-info">
+            <p>© 2025 Facultad de Ingeniería Mochis - UAS</p>
+            <p>Ciudad Universitaria, Los Mochis, Sinaloa.</p>
+            <p>Teléfono: (668) 812-34-56</p>
+            <!-- Error leve: dirección de correo con espacio -->
+            <p>Email: contacto @ fim.uas.edu.mx</p>
+        </div>
+        <!-- Error leve: el enlace de Facebook no lleva a ninguna parte -->
+        <div class="redes-sociales">
+            <a href="#">Facebook</a> |
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>
