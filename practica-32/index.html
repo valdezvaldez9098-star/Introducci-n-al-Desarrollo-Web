@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Calificaciones</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>📊 Calculadora de Calificaciones</h1>
+        <form action="calificacion.php" method="POST">
+            <label>Ingresa la puntuación (0 - 100):</label>
+            <input type="number" name="puntuacion" min="0" max="100" step="1" placeholder="Ej: 85" required>
+            <button type="submit">Calcular calificación</button>
+        </form>
+        <div class="info">
+            <p><strong>Tabla de referencia:</strong></p>
+            <p>90-100: A | 80-89: B | 70-79: C | 60-69: D | 0-59: F</p>
+        </div>
+    </div>
+</body>
+</html>
