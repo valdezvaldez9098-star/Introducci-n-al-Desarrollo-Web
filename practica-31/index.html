@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Votación - Edad para votar</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>🗳️ ¿Puede votar?</h1>
+        <form action="votacion.php" method="POST">
+            <label>Nombre completo:</label>
+            <input type="text" name="nombre" placeholder="Ej: María" required>
+            
+            <label>Edad:</label>
+            <input type="number" name="edad" placeholder="Ej: 18" required>
+            
+            <button type="submit">Verificar</button>
+        </form>
+    </div>
+</body>
+</html>
