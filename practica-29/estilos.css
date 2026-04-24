@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+    min-width: 350px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    font-size: 1.1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+button {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    margin: 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #5a67d8;
+}
+
+.resultado {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+/* Estilo dinámico para par/impar con PHP puro (solo texto) */
+.explicacion {
+    color: #666;
+    font-size: 0.9rem;
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.error {
+    color: #e53e3e;
+    background: #fed7d7;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #667eea;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
