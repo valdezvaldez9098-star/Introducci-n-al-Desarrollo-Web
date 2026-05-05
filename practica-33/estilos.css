@@ -1,0 +1,144 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.contenedor {
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 550px;
+    width: 100%;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.subtitulo {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+}
+
+input {
+    padding: 12px;
+    width: 90%;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+input:focus {
+    border-color: #667eea;
+    outline: none;
+}
+
+button {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    margin: 25px 0 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #5a67d8;
+}
+
+.resultado {
+    padding: 20px;
+    border-radius: 12px;
+    margin: 15px 0;
+}
+
+.pregunta {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.respuesta {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.respuesta strong {
+    font-size: 2rem;
+}
+
+.explicacion {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #555;
+}
+
+.exito {
+    background: #d4edda;
+    border-left: 5px solid #28a745;
+}
+
+.exito .respuesta strong {
+    color: #28a745;
+}
+
+.error {
+    background: #f8d7da;
+    border-left: 5px solid #dc3545;
+}
+
+.error .respuesta strong {
+    color: #dc3545;
+}
+
+.info {
+    background: #e9ecef;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 0.85rem;
+    text-align: left;
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+.mensaje-error {
+    color: #dc3545;
+    background: #f8d7da;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #667eea;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}

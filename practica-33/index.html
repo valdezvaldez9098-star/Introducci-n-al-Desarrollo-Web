@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Verificador de Anagramas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>🔄 Verificador de Anagramas</h1>
+        <p class="subtitulo">¿Dos palabras tienen las mismas letras?</p>
+        
+        <form action="anagrama.php" method="POST">
+            <label>Primera palabra:</label>
+            <input type="text" name="palabra1" placeholder="Ej: listen" required>
+            
+            <label>Segunda palabra:</label>
+            <input type="text" name="palabra2" placeholder="Ej: silent" required>
+            
+            <button type="submit">Verificar anagrama</button>
+        </form>
+        
+        <div class="info">
+            <p><strong>Ejemplos:</strong></p>
+            <p>listen ↔ silent → Sí (anagrama)</p>
+            <p>hola ↔ aloh → Sí (anagrama)</p>
+            <p>casa ↔ saco → No (no son anagramas)</p>
+        </div>
+    </div>
+</body>
+</html>
