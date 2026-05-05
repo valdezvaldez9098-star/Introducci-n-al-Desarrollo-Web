@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Convertidor de Tiempo</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>⏱️ Convertidor de Tiempo</h1>
+        <p class="subtitulo">Convierte segundos a horas, minutos y segundos</p>
+        
+        <form action="tiempo.php" method="POST">
+            <label>Ingresa los segundos:</label>
+            <input type="number" name="segundos" step="1" placeholder="Ej: 3661" required>
+            
+            <button type="submit">Convertir</button>
+        </form>
+        
+        <div class="info">
+            <p><strong>Ejemplos:</strong></p>
+            <p>3661 segundos → 1 hora, 1 minuto, 1 segundo</p>
+            <p>5000 segundos → 1 hora, 23 minutos, 20 segundos</p>
+            <p>86400 segundos → 24 horas, 0 minutos, 0 segundos</p>
+        </div>
+    </div>
+</body>
+</html>
