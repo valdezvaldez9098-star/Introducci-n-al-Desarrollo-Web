@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cambio de Divisas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>💱 Cambio de Divisas</h1>
+        <p class="subtitulo">Calcula el valor convertido según la tasa de cambio</p>
+        
+        <form action="cambio.php" method="POST">
+            <label>Cantidad a convertir:</label>
+            <input type="number" name="cantidad" step="any" placeholder="Ej: 100" required>
+            
+            <label>Tasa de cambio:</label>
+            <input type="number" name="tasa" step="any" placeholder="Ej: 0.85" required>
+            
+            <button type="submit">Calcular</button>
+        </form>
+        
+        <div class="info">
+            <p><strong>Ejemplo:</strong></p>
+            <p>Cantidad: 100 | Tasa: 0.85 → Resultado: 85.00</p>
+            <p><strong>Fórmula:</strong> Cantidad × Tasa = Resultado</p>
+        </div>
+    </div>
+</body>
+</html>
